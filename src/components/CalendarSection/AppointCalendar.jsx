@@ -9,7 +9,7 @@ const AppointmentCalendar = () => {
     const daysInMonth = 31;
 
     return (
-        <div className="max-w-6xl mx-auto">
+        <div>
             {/* Header */}
             <Header subtitle={calendarInfo.subtitle} title={calendarInfo.title}>
                 <Button icon={<GoPlus size={20} />} label='Add Event' />
